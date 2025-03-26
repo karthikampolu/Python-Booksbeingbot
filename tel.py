@@ -206,7 +206,7 @@ def main():
     application.run_polling()
 
 
-if __name__ == "__main__":
+
 
 import json
 import requests
@@ -402,7 +402,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Send a sticker even if no matches are found
     await update.message.reply_sticker(STICKER_FILE_ID)
 
-
 def main():
     """Start the bot."""
     application = Application.builder().token(BOT_TOKEN).build()
@@ -414,6 +413,5 @@ def main():
     # Start the bot
     application.run_polling()
 
-
- d9fe01d0432aa242174f6b38605b73269d733af3
+if __name__ == "__main__":
     main()
