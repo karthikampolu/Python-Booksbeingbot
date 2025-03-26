@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import json
 import requests
 from telegram import Update
@@ -207,7 +207,7 @@ def main():
 
 
 if __name__ == "__main__":
-=======
+
 import json
 import requests
 from telegram import Update
@@ -415,6 +415,5 @@ def main():
     application.run_polling()
 
 
-if __name__ == "__main__":
->>>>>>> d9fe01d0432aa242174f6b38605b73269d733af3
+ d9fe01d0432aa242174f6b38605b73269d733af3
     main()
